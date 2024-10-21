@@ -282,7 +282,7 @@ namespace YFOLED2 {
      * OLED initialize
      */
     //% blockId="OLED12864_I2C_init" block="Initial OLED"
-    //% weight=10 blockGap=8
+    //% weight=100 blockGap=8
     export function init() {
         cmd1(0xAE)       // SSD1306_DISPLAYOFF
         cmd1(0xA4)       // SSD1306_DISPLAYALLON_RESUME
