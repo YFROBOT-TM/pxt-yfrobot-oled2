@@ -1,5 +1,5 @@
 {
-    "name": "YFOLED2",
+    "name": "pxt-YFOLED2",
     "version": "1.0.0",
     "description": "Yfrobot makecode I2C OLED 128 x 64 extension for micro:bit V2.",
     "license": "MIT",
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "YFOLED2.ts",
-        "_locales/zh/pxt-YFOLED2-strings.json",
+        "_locales/zh-cn/pxt-YFOLED2-strings.json",
         "pxtparts.json",
         "parts/YFOLED2.svg"
     ],
