@@ -77,7 +77,7 @@ namespace YFOLED2 {
     /**
      * set pixel in OLED
      */
-    //% blockId="OLED12864_I2C_PIXEL" block="set pixel at x %x|y %y|color %color"
+    //% blockId="YFOLED2_PIXEL" block="set pixel at x %x|y %y|color %color"
     //% x.max=128 x.min=0 x.defl=0
     //% y.max=64 y.min=0 y.defl=0
     //% color.max=1 color.min=0 color.defl=1
@@ -113,7 +113,7 @@ namespace YFOLED2 {
     /**
      * show text in OLED
      */
-    //% blockId="OLED12864_I2C_SHOWSTRING" block="show string %s|at col %col|row %row|color %color"
+    //% blockId="YFOLED2_SHOWSTRING" block="show string %s|at col %col|row %row|color %color"
     //% s.defl='Hello'
     //% col.max=120 col.min=0 col.defl=0
     //% row.max=7 row.min=0 row.defl=0
@@ -130,7 +130,7 @@ namespace YFOLED2 {
     /**
      * show a number in OLED
      */
-    //% blockId="OLED12864_I2C_NUMBER" block="show Number %num|at col %col|row %row|color %color"
+    //% blockId="YFOLED2_NUMBER" block="show Number %num|at col %col|row %row|color %color"
     //% num.defl=100
     //% col.max=120 col.min=0 col.defl=0
     //% row.max=7 row.min=0 row.defl=0
@@ -187,7 +187,7 @@ namespace YFOLED2 {
     /**
      * draw a horizontal line
      */
-    //% blockId="OLED12864_I2C_HLINE" block="draw a horizontal line at x %x|y %y|length %len|color %color"
+    //% blockId="YFOLED2_HLINE" block="draw a horizontal line at x %x|y %y|length %len|color %color"
     //% x.max=127 x.min=0 x.defl=0
     //% y.max=63 y.min=0 y.defl=0
     //% len.max=128 len.min=1 len.defl=16
@@ -207,7 +207,7 @@ namespace YFOLED2 {
     /**
      * draw a vertical line
      */
-    //% blockId="OLED12864_I2C_VLINE" block="draw a vertical line at x %x|y %y|length %len|color %color"
+    //% blockId="YFOLED2_VLINE" block="draw a vertical line at x %x|y %y|length %len|color %color"
     //% x.max=127 x.min=0 x.defl=0
     //% y.max=63 y.min=0 y.defl=0
     //% len.max=128 len.min=1 len.defl=16
@@ -227,7 +227,7 @@ namespace YFOLED2 {
     /**
      * draw a rectangle
      */
-    //% blockId="OLED12864_I2C_RECT" block="draw a rectangle at x1 %x1|y1 %y1|x2 %x2|y2 %y2|color %color"
+    //% blockId="YFOLED2_RECT" block="draw a rectangle at x1 %x1|y1 %y1|x2 %x2|y2 %y2|color %color"
     //% color.defl=1
     //% weight=70 blockGap=8 inlineInputMode=inline
     export function rect(x1: number, y1: number, x2: number, y2: number, color: number = 1) {
@@ -248,7 +248,7 @@ namespace YFOLED2 {
      * invert display
      * @param d true: invert / false: normal, eg: true
      */
-    //% blockId="OLED12864_I2C_INVERT" block="Invert display %d"
+    //% blockId="YFOLED2_INVERT" block="Invert display %d"
     //% weight=62 blockGap=8
     export function invert(d: boolean = true) {
         let n = (d) ? 0xA7 : 0xA6
@@ -258,7 +258,7 @@ namespace YFOLED2 {
     /**
      * clear screen
      */
-    //% blockId="OLED12864_I2C_CLEAR" block="Clear screen"
+    //% blockId="YFOLED2_CLEAR" block="Clear screen"
     //% weight=30 blockGap=8
     export function clear() {
         _cx = _cy = 0
@@ -270,7 +270,7 @@ namespace YFOLED2 {
     /**
      * turn on/off screen
      */
-    //% blockId="OLED12864_I2C_ON" block="Display %on"
+    //% blockId="YFOLED2_ON" block="Display %on"
     //% on.defl=1
     //% weight=62 blockGap=8
     export function display(on: DISPLAY_ONOFF=DISPLAY_ONOFF.DISPLAY_ON) {
@@ -281,7 +281,7 @@ namespace YFOLED2 {
     /**
      * OLED initialize
      */
-    //% blockId="OLED12864_I2C_init" block="Initial OLED"
+    //% blockId="YFOLED2_init" block="Initial OLED"
     //% weight=100 blockGap=8
     export function init() {
         cmd1(0xAE)       // SSD1306_DISPLAYOFF

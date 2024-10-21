@@ -2,8 +2,8 @@
     "YFOLED2.DISPLAY_ONOFF.DISPLAY_ON|block": "开",
     "YFOLED2.DISPLAY_ONOFF.DISPLAY_OFF|block": "关",
     "YFOLED2.pixel|block": "画点在 x %x|y %y|颜色 %color",
-    "YFOLED2.String|block": "显示文字 %s|在列 %x|行 %y|颜色 %color",
-    "YFOLED2.Number|block": "显示数字 %num|在列 %x|行 %y|颜色 %color",
+    "YFOLED2.String|block": "显示文字 %s|在列 %col|行 %row|颜色 %color",
+    "YFOLED2.Number|block": "显示数字 %num|在列 %col|行 %row|颜色 %color",
     "YFOLED2.printString|block": "打印 %s|颜色 %color|新行 %newline",
     "YFOLED2.printNumber|block": "打印数字 %num|颜色 %color|新行 %newline",
     "YFOLED2.hline|block": "绘制水平线在 x %x|y %y|长度 %len|颜色 %color",
@@ -11,6 +11,6 @@
     "YFOLED2.rect|block": "绘制矩形在 x1 %x1|y1 %y1|x2 %x2|y2 %y2|颜色 %color",
     "YFOLED2.invert|block": "反显模式 %d",
     "YFOLED2.clear|block": "清除屏幕",
-    "YFOLED2.display|block": "显示 %d",
+    "YFOLED2.display|block": "显示 %on",
     "YFOLED2.init|block": "初始化OLED,IIC地址0x3D"
 }
