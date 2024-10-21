@@ -12,5 +12,5 @@
     "YFOLED2.invert|block": "反显模式 %d",
     "YFOLED2.clear|block": "清除屏幕",
     "YFOLED2.display|block": "显示 %d",
-    "YFOLED2.init|block": "初始化"
+    "YFOLED2.init|block": "初始化OLED,IIC地址0x3D"
 }
