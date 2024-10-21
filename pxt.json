@@ -1,0 +1,20 @@
+{
+    "name": "YFOLED2",
+    "version": "1.0.0",
+    "description": "Yfrobot makecode I2C OLED 128 x 64 extension for micro:bit V2.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "YFOLED2.ts",
+        "_locales/zh/pxt-YFOLED2-strings.json",
+        "pxtparts.json",
+        "parts/YFOLED2.svg"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}

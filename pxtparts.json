@@ -1,0 +1,68 @@
+{
+  "YFOLED2": {
+    "visual": {
+      "image": "parts/YFOLED2.svg",
+      "width": 82,
+      "height": 82,
+      "pinDistance": 7.2,
+      "pinLocations": [
+        {
+          "x": 29,
+          "y": 5
+        },
+        {
+          "x": 37,
+          "y": 5
+        },
+        {
+          "x": 44,
+          "y": 5
+        },
+        {
+          "x": 51,
+          "y": 5
+        }
+      ]
+    },
+    "numberOfPins": 4,
+    "instantiation": {
+      "kind": "function",
+      "fullyQualifiedName": "YFOLED2.pixel,YFOLED2.showString,YFOLED2.showNumber,YFOLED2.hline,YFOLED2.vline,YFOLED2.rect,YFOLED2.invert,YFOLED2.draw,YFOLED2.clear,YFOLED2.on,YFOLED2.off,YFOLED2.zoom,YFOLED2.init",
+      "argumentRoles": [{
+                    "pinInstantiationIdx": 0
+                }]
+    },
+    "pinDefinitions": [
+      {
+        "target": "threeVolt",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "ground",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SCL",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SDA",
+        "style": "male",
+        "orientation": "+Y"
+      }
+    ],
+    "assembly": [
+      {
+        "pinIndices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}
