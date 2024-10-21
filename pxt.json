@@ -1,6 +1,6 @@
 {
     "name": "pxt-YFOLED2",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Yfrobot makecode I2C OLED 128 x 64 extension for micro:bit V2.",
     "license": "MIT",
     "dependencies": {

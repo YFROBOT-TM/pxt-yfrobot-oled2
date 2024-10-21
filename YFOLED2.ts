@@ -154,7 +154,7 @@ namespace YFOLED2 {
     /**
      * print a text in OLED
      */
-    //% block="print %s|color %color|newline %newline"
+    //% blockId="YFOLED2_PRINTSTRING" block="print %s|color %color|newline %newline"
     //% s.defl="string"
     //% color.max=1 color.min=0 color.defl=1
     //% newline.defl=true
@@ -175,7 +175,7 @@ namespace YFOLED2 {
     /**
      * print a Number in OLED
      */
-    //% block="print number %num|color %color|newline %newline"
+    //% blockId="YFOLED2_PRINTNUMBER" block="print number %num|color %color|newline %newline"
     //% s.defl="0"
     //% color.max=1 color.min=0 color.defl=1
     //% newline.defl=true
